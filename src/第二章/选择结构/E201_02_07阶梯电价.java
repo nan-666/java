@@ -1,5 +1,5 @@
 package 第二章.选择结构;
-import java.util.Scanner;
+        import java.util.Scanner;
 public class E201_02_07阶梯电价 {
     public static void main(String[] args) {
         System.out.println("输入你使用的总电量");
