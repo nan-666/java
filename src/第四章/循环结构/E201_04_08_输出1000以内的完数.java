@@ -11,7 +11,7 @@ public class E201_04_08_输出1000以内的完数 {
 
         for(int i=1;i<=number;i++){
             int sum = 0;
-            for (int j = 1; j <i ; j++) {
+            for (int j = 1; j <=i/2 ; j++) {
                 if(i%j==0){
                     sum = sum + j;
                 }

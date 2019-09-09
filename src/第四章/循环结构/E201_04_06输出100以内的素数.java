@@ -8,7 +8,7 @@ public class E201_04_06输出100以内的素数 {
         Scanner scan = new Scanner(System.in);
         int number = scan.nextInt();
 
-        for (int i = 1; i < number; i++) {
+        for (int i = 2; i < number; i++) {
             int flag = 0;
             for (int j = 2; j <i ; j++) {
                 if(i%j==0){
