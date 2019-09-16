@@ -18,6 +18,12 @@ public class E201_04_06输出100以内的素数 {
             if(flag==0){
                 System.out.printf("%4d",i);
             }
+            isPrime(flag);
         }
     }
+
+    private static void isPrime(int flag) {
+    }
+
+
 }
